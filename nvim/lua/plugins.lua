@@ -100,6 +100,11 @@ return packer.startup(function(use)
     end,
     requires = {"kkharji/sqlite.lua"}
   }
+  use {("scrooloose/nerdtree")}
+  -- collor
+  use( {"jonathanfilip/vim-lucius"})
+  -- AirLine
+  use {("itchyny/lightline.vim")}
   -- Automatically set up your configuration after cloning packer.nvim
 	-- Put this at the end after all plugins
 	if PACKER_BOOTSTRAP then

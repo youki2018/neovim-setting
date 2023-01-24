@@ -79,7 +79,7 @@ keymap("v", "v", "$h", opts)
 -- 0番レジスタを使いやすくした
 -- keymap("v", "<C-p>", '"0p', opts)
 
--- telescopcope 
+-- telescopcope live_grep
 keymap("n", "<C-p>", "<cmd>Telescope find_files<cr>",opts)
 keymap("n", "<C-g>", "<cmd>Telescope live_grep<cr>", opts)
 keymap("n", "<C-f>", "<cmd>Telescope frecency<cr>", opts)

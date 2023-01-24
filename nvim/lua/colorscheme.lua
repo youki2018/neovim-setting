@@ -1,8 +1,8 @@
-vim.cmd [[
-try
-  colorscheme nightfox
-catch /^Vim\%((\a\+)\)\=:E185/
-  colorscheme default
-  set background=dark
-endtry
-]]
+-- vim.cmd [[
+-- try
+--   colorscheme vim-lucius
+-- catch /^Vim\%((\a\+)\)\=:E185/
+--   colorscheme default
+--   set background=dark
+-- endtry
+-- ]]
